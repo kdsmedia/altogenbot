@@ -1,0 +1,110 @@
+
+> @workspace/api-server@0.0.0 dev /home/runner/workspace/artifacts/api-server
+> NODE_ENV=development tsx ./src/index.ts
+
+Server listening on port 8080
+Initializing WhatsApp bot...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)
+Reinitializing WhatsApp bot after init failure...
+Failed to initialize WhatsApp client: Error: The browser is already running for /home/runner/.wwebjs_auth/session. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (/home/runner/workspace/node_modules/[4m.pnpm[24m/puppeteer-core@24.39.0/node_modules/[4mpuppeteer-core[24m/src/node/BrowserLauncher.ts:236:15)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.initialize (/home/runner/workspace/node_modules/[4m.pnpm[24m/whatsapp-web.js@1.34.6_typescript@5.9.3/node_modules/[4mwhatsapp-web.js[24m/src/Client.js:331:23)

@@ -1,0 +1,93 @@
+
+> @workspace/api-server@0.0.0 dev /home/runner/workspace/artifacts/api-server
+> NODE_ENV=development tsx ./src/index.ts
+
+Server listening on port 8080
+Initializing WhatsApp bot...
+QR Code received, scan to connect WhatsApp!
+QR Code received, scan to connect WhatsApp!
+WhatsApp Bot authenticated!
+WhatsApp Bot authenticated!
+WhatsApp Bot authenticated!
+WhatsApp Bot connected!
+Error handling message: DrizzleQueryError: Failed query: insert into "users" ("id", "phone", "name", "referral_code", "referred_by", "balance", "ewallet_type", "ewallet_number", "ewallet_name", "is_blocked", "package_expiry", "last_checkin", "videos_watched", "videos_watched_date", "menu_state", "temp_data", "created_at") values (default, $1, $2, $3, default, default, default, default, default, default, default, default, default, default, default, default, default) returning "id", "phone", "name", "referral_code", "referred_by", "balance", "ewallet_type", "ewallet_number", "ewallet_name", "is_blocked", "package_expiry", "last_checkin", "videos_watched", "videos_watched_date", "menu_state", "temp_data", "created_at"
+params: 261972234862773@lid,Pengguna,ALT@LIDKYI
+    at NodePgPreparedQuery.queryWithCache (/home/runner/workspace/node_modules/[4m.pnpm[24m/drizzle-orm@0.45.1_@types+pg@8.18.0_pg@8.20.0/node_modules/[4msrc[24m/pg-core/session.ts:73:11)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async <anonymous> (/home/runner/workspace/node_modules/[4m.pnpm[24m/drizzle-orm@0.45.1_@types+pg@8.18.0_pg@8.20.0/node_modules/[4msrc[24m/node-postgres/session.ts:154:19)
+[90m    ... 2 lines matching cause stack trace ...[39m
+    at async Client.<anonymous> [90m(/home/runner/workspace/artifacts/api-server/[39msrc/bot/whatsapp.ts:719:7[90m)[39m {
+  query: [32m'insert into "users" ("id", "phone", "name", "referral_code", "referred_by", "balance", "ewallet_type", "ewallet_number", "ewallet_name", "is_blocked", "package_expiry", "last_checkin", "videos_watched", "videos_watched_date", "menu_state", "temp_data", "created_at") values (default, $1, $2, $3, default, default, default, default, default, default, default, default, default, default, default, default, default) returning "id", "phone", "name", "referral_code", "referred_by", "balance", "ewallet_type", "ewallet_number", "ewallet_name", "is_blocked", "package_expiry", "last_checkin", "videos_watched", "videos_watched_date", "menu_state", "temp_data", "created_at"'[39m,
+  params: [ [32m'261972234862773@lid'[39m, [32m'Pengguna'[39m, [32m'ALT@LIDKYI'[39m ],
+  cause: error: duplicate key value violates unique constraint "users_phone_unique"
+      at /home/runner/workspace/node_modules/[4m.pnpm[24m/pg-pool@3.13.0_pg@8.20.0/node_modules/[4mpg-pool[24m/index.js:45:11
+  [90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+      at async <anonymous> (/home/runner/workspace/node_modules/[4m.pnpm[24m/drizzle-orm@0.45.1_@types+pg@8.18.0_pg@8.20.0/node_modules/[4msrc[24m/node-postgres/session.ts:161:13)
+      at async NodePgPreparedQuery.queryWithCache (/home/runner/workspace/node_modules/[4m.pnpm[24m/drizzle-orm@0.45.1_@types+pg@8.18.0_pg@8.20.0/node_modules/[4msrc[24m/pg-core/session.ts:71:12)
+      at async <anonymous> (/home/runner/workspace/node_modules/[4m.pnpm[24m/drizzle-orm@0.45.1_@types+pg@8.18.0_pg@8.20.0/node_modules/[4msrc[24m/node-postgres/session.ts:154:19)
+      at async getOrCreateUser [90m(/home/runner/workspace/artifacts/api-server/[39msrc/bot/whatsapp.ts:41:21[90m)[39m
+      at async handleMessage [90m(/home/runner/workspace/artifacts/api-server/[39msrc/bot/whatsapp.ts:155:16[90m)[39m
+      at async Client.<anonymous> [90m(/home/runner/workspace/artifacts/api-server/[39msrc/bot/whatsapp.ts:719:7[90m)[39m {
+    length: [33m217[39m,
+    severity: [32m'ERROR'[39m,
+    code: [32m'23505'[39m,
+    detail: [32m'Key (phone)=(261972234862773@lid) already exists.'[39m,
+    hint: [90mundefined[39m,
+    position: [90mundefined[39m,
+    internalPosition: [90mundefined[39m,
+    internalQuery: [90mundefined[39m,
+    where: [90mundefined[39m,
+    schema: [32m'public'[39m,
+    table: [32m'users'[39m,
+    column: [90mundefined[39m,
+    dataType: [90mundefined[39m,
+    constraint: [32m'users_phone_unique'[39m,
+    file: [32m'nbtinsert.c'[39m,
+    line: [32m'673'[39m,
+    routine: [32m'_bt_check_unique'[39m
+  }
+}
+OpenAI error: RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at APIError.generate (/home/runner/workspace/node_modules/[4m.pnpm[24m/openai@6.27.0_ws@8.19.0_zod@4.3.6/node_modules/[4mopenai[24m/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/runner/workspace/node_modules/[4m.pnpm[24m/openai@6.27.0_ws@8.19.0_zod@4.3.6/node_modules/[4mopenai[24m/src/client.ts:488:28)
+    at OpenAI.makeRequest (/home/runner/workspace/node_modules/[4m.pnpm[24m/openai@6.27.0_ws@8.19.0_zod@4.3.6/node_modules/[4mopenai[24m/src/client.ts:738:24)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async handleMessage [90m(/home/runner/workspace/artifacts/api-server/[39msrc/bot/whatsapp.ts:406:28[90m)[39m
+    at async Client.<anonymous> [90m(/home/runner/workspace/artifacts/api-server/[39msrc/bot/whatsapp.ts:719:7[90m)[39m {
+  status: [33m429[39m,
+  headers: Headers {
+    date: [32m'Thu, 12 Mar 2026 22:24:42 GMT'[39m,
+    [32m'content-type'[39m: [32m'application/json; charset=utf-8'[39m,
+    [32m'content-length'[39m: [32m'337'[39m,
+    connection: [32m'keep-alive'[39m,
+    [32m'set-cookie'[39m: [32m'__cf_bm=ecGIGp03koojWJY.FmPl4xE0YY3WqgM23Um9ZUysVwM-1773354281.9249625-1.0.1.1-FowB2AtFuuVMOVLWHDsUPfyQ_ywfUeKfVGa6cYUFiVsPfdYE54194rVU.lyqBER8pSFSQlClM0gkeZgrk9sk3GccbX.8DCtUTCBOzgF3pR5_hn_u..jOhwQPI6X42ecj; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 12 Mar 2026 22:54:42 GMT, _cfuvid=V9uCjtpjXEsoIgh_wB1HKoGvE_tFg5xTytyrgGRqdG8-1773354281.9249625-1.0.1.1-8zchgwjM_Kgi92guV1qm_6il3plI2MvdOuCMAvpiWmM; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com'[39m,
+    [32m'cf-ray'[39m: [32m'9db635e60b59c460-ATL'[39m,
+    [32m'cf-cache-status'[39m: [32m'DYNAMIC'[39m,
+    server: [32m'cloudflare'[39m,
+    [32m'strict-transport-security'[39m: [32m'max-age=31536000; includeSubDomains; preload'[39m,
+    vary: [32m'Origin'[39m,
+    [32m'x-content-type-options'[39m: [32m'nosniff'[39m,
+    [32m'x-openai-proxy-wasm'[39m: [32m'v0.1'[39m,
+    [32m'x-request-id'[39m: [32m'req_7f0dbdb4a19441489ce943b5ea120671'[39m,
+    [32m'alt-svc'[39m: [32m'h3=":443"; ma=86400'[39m
+  },
+  requestID: [32m'req_7f0dbdb4a19441489ce943b5ea120671'[39m,
+  error: {
+    message: [32m'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.'[39m,
+    type: [32m'insufficient_quota'[39m,
+    param: [1mnull[22m,
+    code: [32m'insufficient_quota'[39m
+  },
+  code: [32m'insufficient_quota'[39m,
+  param: [1mnull[22m,
+  type: [32m'insufficient_quota'[39m
+}
+Replicate error: Error: Prediction failed: Request failed with status code: 2013
+    at Replicate.run (/home/runner/workspace/node_modules/[4m.pnpm[24m/replicate@1.4.0/node_modules/[4mreplicate[24m/index.js:203:13)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async handleMessage [90m(/home/runner/workspace/artifacts/api-server/[39msrc/bot/whatsapp.ts:433:26[90m)[39m
+    at async Client.<anonymous> [90m(/home/runner/workspace/artifacts/api-server/[39msrc/bot/whatsapp.ts:719:7[90m)[39m
+Replicate error: Error: No video URL returned
+    at handleMessage [90m(/home/runner/workspace/artifacts/api-server/[39msrc/bot/whatsapp.ts:448:19[90m)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at async Client.<anonymous> [90m(/home/runner/workspace/artifacts/api-server/[39msrc/bot/whatsapp.ts:719:7[90m)[39m
