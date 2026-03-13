@@ -1,0 +1,55 @@
+#Buatkan aplikasi bot whatsapp bernama ALTOGEN.
+tampilan aplikasi penuh warna modern gradasi dan animasi,3d,profesional.
+
+#tampilan welcome (sesuaikan)
+#menu (sesuaikan)
+
+#menu navigasi dengan icon 3d yang modern: 
+HOME,BONUS,GEN,SALDO, PROFIL.
+
+metode pilih menu menggunakan ceklist/kirim pesan sesuai urutan menu (1,2,3,4,5) dan eapkan angka 0 untuk kembali mundur dan 00 untuk kembali ke menu utama
+
+
+#HOME (menampilkan halaman utama)
+#BONUS (halaman yang berisi bonus: #paket (paket langganan untuk menggunakan generator: Rp.15000/7 hari,Rp.25000/10 hari, Rp60000/30 hari.pae otomatis aktif setelah pembelian berhasl dan di konfirmasi oleh admin,paket otomatis off ketika durasi habis. #checkin harian (bonus checin hariasn R.50), #undang teman(bnus undan teman Rp.500/undangan valid), #tonton video (admob) bonus Rp50 dapa 20x perhari)
+#GEN (halaman berisi dua generator : generator PROMT, generator VIDEO)
+#SALDO (halaman berisi tampilan saldo dan menu : #tarik (minimal penarikan saldo adalah Rp.100000,mengunakan rekenin ewallet pengguna yang tersimpan, di periksa oleh admin untuk konfirmasi), #deposit (metode deposit via DANA di periksa oleh admin untuk konfirmasi))
+#PROFIL (halaman profil lengap pengguna: #nama,#kode reff,#saldo,#data ewallet untuk penarikan,#about,#privasi,#disclaimer, #tombol telegram(t.me/altomediaindonesia), #tombol group whatsapp (https://) )
+
+#halaman admin tersembunyi yang hanya dapat di akses oleh login admin 085813899649.
+halaman admin memiliki fitur lengkap untuk #mengelola aplikasi, #mengelola user (edit(data,saldo) hapus,blokir,#mengelola transaksi,#mengelola pesan notifikasi publik (buat pesan,hapus pesan)
+
+#fitur untuk generator PROMT:
+-input nama/judul produk
+-upload gambar
+maka akan menghasilkan 3 scene promt
+APIKEY OPEN AI: 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
+
+#fitur generator VIDEO:
+-upload gambar
+-ketik promt
+
+export REPLICATE_API_TOKEN=r8_fGbDNjLpj5ReSWvlzu0Yn2NaepU94hM0yXXQB
+curl --silent --show-error https://api.replicate.com/v1/models/minimax/video-01/predictions \
+	--request POST \
+	--header "Authorization: Bearer $REPLICATE_API_TOKEN" \
+	--header "Content-Type: application/json" \
+	--header "Prefer: wait" \
+	--data @- <<'EOM'
+{
+	"input": {
+      "prompt": "a woman is walking through a busy Tokyo street at night, she is wearing dark sunglasses"
+	}
+}
+EOM
+
+
+loading progres realtime, maka menampilkan preview video hasil yang bisa di download.
+
+
+
+bot whatapp ini tanpa api, jadi buat saja agar proses instalasi dengan scan qr agar bot terhubung dengan whatsapp
+
+mengapa tidak menggunakan whatsapp-web.js aagar menghasilkan QR untuk di scan menggunakan akun whatsapp yang akan di jadikan bot.
+bot ini harus berjalan di whatsapp, bukan berjalan di web.
+jangan ada web apapun, web hanya untuk panel admin dengan login nomor: 085813899649 (tanpa password)
